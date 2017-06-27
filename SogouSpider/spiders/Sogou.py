@@ -11,7 +11,7 @@ from twisted.internet.error import TimeoutError, TCPTimedOutError
 class Sogou(scrapy.Spider):
     name = "Sogou"
     allowed_domains = ["www.sogou.com"]
-    words = ["周奇"]
+    words = ["李明"]
     start_urls = []
     for word in words:
         #url = 'http://www.sogou.com/web?query=%s&sourceid=&_ast=1268620800&_asf=www.sogou.com&w=01029901&num=10&p=40040100&dp=1' % urllib.quote(word)
